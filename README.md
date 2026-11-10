@@ -59,21 +59,7 @@ Press Enter to accept the value in [brackets]. In VS Code you can also use Run a
 | 10 | Which symptoms should the doctor ask, and in what order? | greedy test-cover / identifying-code algorithm on the bipartite network ('20 questions'), compared with hubs-first, rarest-first and random |
 | 9 | Which ranking algorithm finds the disease best? | similarity vs diffusion on the network: IC-weighted cosine vs Jaccard vs random walk with restart (personalised PageRank) |
 
-## Documents
-- `docs/PRESENTATION_SPLIT.md` - the 15-minute presentation split between two speakers, with a full script for each
-- `docs/LIVE_DEMO.md` - the presentation script: exactly what to run, what appears, what to say
-- `docs/CONCEPTS_SIMPLE.md` - every concept in plain words (start here if you are new to the project)
-- `docs/FILE_GUIDE.md` - every file and what it does
-- `docs/OUTPUT_GUIDE.md` - every figure and number, and what to say about it
-- `docs/VIVA_QA.md` - questions your professor may ask, with answers
-- `paper/README.md` - where the paper draft is
 
-## Honest limits (say these before you are asked)
-- Annotations describe diseases (curated from the literature), not patients, and give no prevalence.
-- Simulated patients are built from each disease's own annotation, so accuracies are optimistic. Only relative findings should be generalised.
-- OMIM and Orphanet sometimes list the same disease twice; duplicates are not merged (an OMIM-only check is included).
-- The simulated doctor always knows at least 2 symptoms, which causes a U-shape in difficulty vs symptom count.
-- The Joubert case study is small (35 subtypes); with multiple testing only the renal-form result stays significant.
 
 ## Troubleshooting
 - `ModuleNotFoundError`: run `pip install -r requirements.txt`.
