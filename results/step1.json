@@ -1,0 +1,90 @@
+{
+ "diseases": 12866,
+ "symptom_terms": 12732,
+ "direct_links": 267579,
+ "sources": {
+  "DECIPHER": 47,
+  "OMIM": 8464,
+  "ORPHA": 4355
+ },
+ "symptoms_per_disease_median": 15.0,
+ "symptoms_per_disease_mean": 20.79737292087673,
+ "symptoms_per_disease_max": 230,
+ "symptoms_used_directly": 11560,
+ "share_symptoms_in_one_disease": 0.24982698961937716,
+ "tail_exponent": {
+  "10": {
+   "gamma": 1.784601352997261,
+   "n": 3575
+  },
+  "30": {
+   "gamma": 1.996862477693671,
+   "n": 1675
+  },
+  "100": {
+   "gamma": 2.355613396060516,
+   "n": 572
+  }
+ },
+ "top_hubs": [
+  [
+   "Global developmental delay",
+   2583
+  ],
+  [
+   "Seizure",
+   2544
+  ],
+  [
+   "Intellectual disability",
+   2480
+  ],
+  [
+   "Short stature",
+   1875
+  ],
+  [
+   "Hypotonia",
+   1863
+  ],
+  [
+   "Microcephaly",
+   1726
+  ],
+  [
+   "Scoliosis",
+   1410
+  ],
+  [
+   "Hypertelorism",
+   1286
+  ],
+  [
+   "Strabismus",
+   1199
+  ],
+  [
+   "Micrognathia",
+   1136
+  ]
+ ],
+ "kcore_max": 36,
+ "kcore_diseases": 330,
+ "kcore_symptoms": 196,
+ "kcore_top_symptoms": [
+  "Global developmental delay",
+  "Seizure",
+  "Intellectual disability",
+  "Short stature",
+  "Hypotonia",
+  "Microcephaly",
+  "Scoliosis",
+  "Hypertelorism"
+ ],
+ "assortativity": -0.1409560794283501,
+ "avg_diseases_per_symptom": 23.1469723183391,
+ "avg_neighbour_degree_of_disease": 309.7321341908755,
+ "friendship_ratio": 13.381107901765539,
+ "ic_of_top_hub": 1.4978400884193979,
+ "ic_of_rarest_symptom": 9.462343451970945
+}

@@ -1,0 +1,118 @@
+{
+ "twins": {
+  "by_threshold": {
+   "0.8": {
+    "diseases": 1537,
+    "share": 0.11946214829783927,
+    "cross_database_share": 0.10735198438516591,
+    "within_database": 1372
+   },
+   "0.9": {
+    "diseases": 876,
+    "share": 0.06808642934867092,
+    "cross_database_share": 0.05821917808219178,
+    "within_database": 825
+   }
+  },
+  "examples": [
+   [
+    "Mosaic monosomy X syndrome",
+    "Turner syndrome due to structural X chromosome anomalies",
+    1.000000238418579
+   ],
+   [
+    "Monosomy X syndrome",
+    "Turner syndrome due to structural X chromosome anomalies",
+    1.000000238418579
+   ],
+   [
+    "Porokeratosis 1, multiple types",
+    "Porokeratosis 7, multiple types",
+    1.0000001192092896
+   ],
+   [
+    "Maturity-onset diabetes of the young, type 4",
+    "Maturity-onset diabetes of the young, type VII",
+    1.0000001192092896
+   ],
+   [
+    "Spermatogenic failure 66",
+    "Spermatogenic failure 69",
+    1.0000001192092896
+   ],
+   [
+    "Spermatogenic failure 67",
+    "Spermatogenic failure 69",
+    1.0000001192092896
+   ],
+   [
+    "Spermatogenic failure 68",
+    "Spermatogenic failure 69",
+    1.0000001192092896
+   ],
+   [
+    "Spermatogenic failure 59",
+    "Spermatogenic failure 73",
+    1.0000001192092896
+   ]
+  ],
+  "mean_best_similarity": 0.5594409704208374,
+  "median_best_similarity": 0.5201310515403748
+ },
+ "families": {
+  "Ehlers-Danlos": {
+   "n": 40,
+   "within": 0.24210426211357117,
+   "background": 0.04029543325304985,
+   "ratio": 6.008230686187744,
+   "auc": 0.9901841586538461
+  },
+  "Marfan / Loeys-Dietz": {
+   "n": 14,
+   "within": 0.28818005323410034,
+   "background": 0.04259738326072693,
+   "ratio": 6.765205383300781,
+   "auc": 0.9878412480376766
+  },
+  "RASopathies": {
+   "n": 35,
+   "within": 0.2698456943035126,
+   "background": 0.05313575640320778,
+   "ratio": 5.078420162200928,
+   "auc": 0.9728506602641056
+  },
+  "Joubert": {
+   "n": 41,
+   "within": 0.2645024061203003,
+   "background": 0.04412449523806572,
+   "ratio": 5.994457244873047,
+   "auc": 0.9798342653182629
+  },
+  "Bardet-Biedl": {
+   "n": 22,
+   "within": 0.3261691927909851,
+   "background": 0.04328344017267227,
+   "ratio": 7.53565788269043,
+   "auc": 0.9932360783156238
+  },
+  "Lysosomal (Gaucher, Fabry, Pompe, MPS)": {
+   "n": 35,
+   "within": 0.16085784137248993,
+   "background": 0.04678960144519806,
+   "ratio": 3.437897205352783,
+   "auc": 0.8629393517406962
+  }
+ },
+ "gene_validation": {
+  "pairs": 38510,
+  "pairs_sharing_gene": 19255,
+  "base_rate": 0.000458717749170276,
+  "auc": 0.8445569550945399,
+  "auc_ci": [
+   0.8420749686104531,
+   0.8475217306038054
+  ],
+  "nearest_lookalike_shares_gene": 0.300304273051991,
+  "diseases_with_genes": 9163
+ }
+}

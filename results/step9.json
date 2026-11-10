@@ -1,0 +1,58 @@
+{
+ "patients": 400,
+ "rwr_continue": 0.5,
+ "rwr_iters": 6,
+ "scenarios": {
+  "random": {
+   "cosine": {
+    "top1": 0.4525,
+    "top10": 0.8425,
+    "median_rank": 2.0
+   },
+   "jaccard": {
+    "top1": 0.3575,
+    "top10": 0.705,
+    "median_rank": 4.0
+   },
+   "rwr": {
+    "top1": 0.1525,
+    "top10": 0.515,
+    "median_rank": 10.0
+   }
+  },
+  "common": {
+   "cosine": {
+    "top1": 0.0925,
+    "top10": 0.23,
+    "median_rank": 56.0
+   },
+   "jaccard": {
+    "top1": 0.11,
+    "top10": 0.3025,
+    "median_rank": 38.0
+   },
+   "rwr": {
+    "top1": 0.01,
+    "top10": 0.0575,
+    "median_rank": 372.5
+   }
+  },
+  "specific": {
+   "cosine": {
+    "top1": 0.81,
+    "top10": 0.96,
+    "median_rank": 1.0
+   },
+   "jaccard": {
+    "top1": 0.51,
+    "top10": 0.83,
+    "median_rank": 1.0
+   },
+   "rwr": {
+    "top1": 0.3875,
+    "top10": 0.8025,
+    "median_rank": 2.0
+   }
+  }
+ }
+}

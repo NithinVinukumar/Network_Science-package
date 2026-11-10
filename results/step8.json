@@ -1,0 +1,176 @@
+{
+ "subtypes": 35,
+ "genes": 35,
+ "symptoms_used": 276,
+ "density": 0.07494824016563147,
+ "symptoms_per_subtype_median": 17.0,
+ "symptoms_per_subtype_range": [
+  3,
+  53
+ ],
+ "subtypes_le10_symptoms": 7,
+ "core_symptoms": [
+  [
+   "Molar tooth sign on MRI",
+   0.8857142857142857
+  ],
+  [
+   "Global developmental delay",
+   0.8857142857142857
+  ],
+  [
+   "Oculomotor apraxia",
+   0.7428571428571429
+  ],
+  [
+   "Ataxia",
+   0.5428571428571428
+  ],
+  [
+   "Hypotonia",
+   0.5428571428571428
+  ],
+  [
+   "Intellectual disability",
+   0.45714285714285713
+  ],
+  [
+   "Nystagmus",
+   0.37142857142857144
+  ],
+  [
+   "Generalized hypotonia",
+   0.37142857142857144
+  ]
+ ],
+ "share_reported_by_one_subtype": 0.5978260869565217,
+ "nodf_real": 12.94635478169484,
+ "nodf_null_mean": 13.346789326564169,
+ "nodf_null_sd": 0.089306618314621,
+ "nodf_z": -4.483817128296426,
+ "nodf_nulls": 100,
+ "form_alignment": {
+  "hepatic": {
+   "genes": 4,
+   "within": 0.3983684480190277,
+   "random_mean": 0.2567436103671789,
+   "random_sd": 0.055782695808910265,
+   "p_value": 0.012993503248375811
+  },
+  "ocular": {
+   "genes": 5,
+   "within": 0.3029528558254242,
+   "random_mean": 0.25951526783406736,
+   "random_sd": 0.04666532953973733,
+   "p_value": 0.1874062968515742
+  },
+  "renal": {
+   "genes": 8,
+   "within": 0.3684394359588623,
+   "random_mean": 0.25688226661086083,
+   "random_sd": 0.033506047802145986,
+   "p_value": 0.0029985007496251873
+  },
+  "oculorenal": {
+   "genes": 6,
+   "within": 0.346740186214447,
+   "random_mean": 0.25755561339110133,
+   "random_sd": 0.039790152088164804,
+   "p_value": 0.013993003498250875
+  }
+ },
+ "pleiotropy": [
+  [
+   "TMEM67",
+   11
+  ],
+  [
+   "CEP290",
+   10
+  ],
+  [
+   "OFD1",
+   9
+  ],
+  [
+   "CC2D2A",
+   8
+  ],
+  [
+   "SUFU",
+   8
+  ],
+  [
+   "MKS1",
+   7
+  ],
+  [
+   "TMEM216",
+   7
+  ],
+  [
+   "INPP5E",
+   6
+  ],
+  [
+   "KIAA0753",
+   6
+  ],
+  [
+   "NPHP1",
+   6
+  ]
+ ],
+ "genes_only_joubert": 0,
+ "median_diseases_per_gene": 4.0,
+ "ego_diseases": 97,
+ "ego_links": 378,
+ "ego_communities": 6,
+ "ego_community_info": [
+  {
+   "size": 29,
+   "examples": [
+    "Orofaciodigital syndrome XV",
+    "Bardet-Biedl syndrome 13",
+    "Meckel syndrome 1",
+    "Short-rib thoracic dysplasia 21 without polydactyly"
+   ]
+  },
+  {
+   "size": 20,
+   "examples": [
+    "Joubert syndrome 16",
+    "Meckel syndrome, type 6",
+    "Coach syndrome 2",
+    "Joubert syndrome 27"
+   ]
+  },
+  {
+   "size": 15,
+   "examples": [
+    "Monomelic amyotrophy",
+    "Joubert syndrome 10",
+    "Orofaciodigital syndrome VI",
+    "Orofaciodigital syndrome IV"
+   ]
+  },
+  {
+   "size": 14,
+   "examples": [
+    "Nephronophthisis 1",
+    "Joubert syndrome 5",
+    "Meckel syndrome, type 4",
+    "Senior-Loken syndrome"
+   ]
+  },
+  {
+   "size": 12,
+   "examples": [
+    "Meckel syndrome, type 5",
+    "Senior-Boichis syndrome",
+    "Joubert syndrome 7",
+    "Joubert syndrome with hepatic defect"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Run all (full)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run_all.py", "console": "integratedTerminal"},
+    {"name": "Run all (quick)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run_all.py", "args": ["--quick"], "console": "integratedTerminal"},
+    {"name": "Only percolation (step 4)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run_all.py", "args": ["--only", "4"], "console": "integratedTerminal"},
+    {"name": "LIVE TEST (you type)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/live_test.py", "console": "integratedTerminal"},
+    {"name": "Live demo (5 scenes)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/demo.py", "console": "integratedTerminal"},
+    {"name": "Explorer (try your own inputs)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/explore.py", "console": "integratedTerminal"},
+    {"name": "Run all tests", "type": "debugpy", "request": "launch", "module": "unittest", "args": ["discover", "-s", "tests", "-v"], "console": "integratedTerminal"}
+  ]
+}

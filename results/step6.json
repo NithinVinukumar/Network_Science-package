@@ -1,0 +1,284 @@
+{
+ "n": 12866,
+ "miss_rate": 0.14752059692212033,
+ "univariate": {
+  "number of symptoms listed": {
+   "auc": 0.6713836650195721,
+   "harder_when": "lower"
+  },
+  "mean information content of its symptoms": {
+   "auc": 0.6365719097379944,
+   "harder_when": "lower"
+  },
+  "share of rare (specific) symptoms": {
+   "auc": 0.6165204274682783,
+   "harder_when": "lower"
+  },
+  "similarity to nearest look-alike (twin)": {
+   "auc": 0.5961285306272717,
+   "harder_when": "higher"
+  },
+  "number of look-alikes (similarity >= 0.5)": {
+   "auc": 0.6046308967403209,
+   "harder_when": "higher"
+  },
+  "number of known genes": {
+   "auc": 0.5358122469888453,
+   "harder_when": "lower"
+  }
+ },
+ "by_symptom_count": {
+  "1-3": {
+   "n": 1754,
+   "top10": 0.8859749144811858
+  },
+  "4-6": {
+   "n": 1466,
+   "top10": 0.7789904502046384
+  },
+  "7-10": {
+   "n": 1546,
+   "top10": 0.5976714100905562
+  },
+  "11-20": {
+   "n": 3144,
+   "top10": 0.8164758269720102
+  },
+  "21+": {
+   "n": 4956,
+   "top10": 0.9646892655367232
+  }
+ },
+ "median_symptoms_hardest200": 7.0,
+ "median_symptoms_all": 15.0,
+ "auc_logistic": 0.7723289669574254,
+ "auc_boosting": 0.827525533614792,
+ "by_organ": [
+  {
+   "organ": "Growth abnormality",
+   "n": 51,
+   "top10": 0.7647058823529411,
+   "low": 0.632375118636542,
+   "high": 0.8599518740113747
+  },
+  {
+   "organ": "Abnormality of the eye",
+   "n": 860,
+   "top10": 0.7651162790697674,
+   "low": 0.7356424826995713,
+   "high": 0.792232072079916
+  },
+  {
+   "organ": "Abnormality of limbs",
+   "n": 47,
+   "top10": 0.7659574468085106,
+   "low": 0.6277546774315923,
+   "high": 0.8639686357607541
+  },
+  {
+   "organ": "Abnormality of the ear",
+   "n": 253,
+   "top10": 0.7865612648221344,
+   "low": 0.7319819582027469,
+   "high": 0.8325683327158582
+  },
+  {
+   "organ": "Abnormality of the integument",
+   "n": 772,
+   "top10": 0.8147668393782384,
+   "low": 0.7858272005631735,
+   "high": 0.840589325696826
+  },
+  {
+   "organ": "Abnormality of the nervous system",
+   "n": 3633,
+   "top10": 0.8208092485549133,
+   "low": 0.8080013311154938,
+   "high": 0.8329394236317024
+  },
+  {
+   "organ": "Abnormality of the genitourinary system",
+   "n": 710,
+   "top10": 0.8492957746478873,
+   "low": 0.821103731538518,
+   "high": 0.8737282872174637
+  },
+  {
+   "organ": "Abnormality of the respiratory system",
+   "n": 183,
+   "top10": 0.8633879781420765,
+   "low": 0.806107369557486,
+   "high": 0.905725541314611
+  },
+  {
+   "organ": "Abnormality of metabolism/homeostasis",
+   "n": 478,
+   "top10": 0.8682008368200836,
+   "low": 0.8349185369393746,
+   "high": 0.8956119942559394
+  },
+  {
+   "organ": "Abnormality of the digestive system",
+   "n": 308,
+   "top10": 0.8701298701298701,
+   "low": 0.8279817340224158,
+   "high": 0.9031586911165008
+  },
+  {
+   "organ": "Abnormality of blood and blood-forming tissues",
+   "n": 397,
+   "top10": 0.8790931989924433,
+   "low": 0.8433376109257801,
+   "high": 0.9075824532591747
+  },
+  {
+   "organ": "Abnormality of the musculoskeletal system",
+   "n": 2141,
+   "top10": 0.8869687062120505,
+   "low": 0.872857477944308,
+   "high": 0.8996937444862904
+  },
+  {
+   "organ": "Abnormality of the cardiovascular system",
+   "n": 571,
+   "top10": 0.8966725043782837,
+   "low": 0.868997543800245,
+   "high": 0.9190456319198143
+  },
+  {
+   "organ": "Abnormality of head or neck",
+   "n": 1641,
+   "top10": 0.8970140158439975,
+   "low": 0.8813688565514709,
+   "high": 0.9108046876974099
+  },
+  {
+   "organ": "Abnormality of the immune system",
+   "n": 484,
+   "top10": 0.9049586776859504,
+   "low": 0.8755503150075757,
+   "high": 0.9279891945381457
+  },
+  {
+   "organ": "Abnormality of the endocrine system",
+   "n": 187,
+   "top10": 0.9144385026737968,
+   "low": 0.8655426826875136,
+   "high": 0.9466492083886459
+  },
+  {
+   "organ": "Neoplasm",
+   "n": 113,
+   "top10": 0.9646017699115044,
+   "low": 0.9125024891789997,
+   "high": 0.9861500455346639
+  }
+ ],
+ "by_database": {
+  "DECIPHER": {
+   "n": 47,
+   "top10": 0.6382978723404256
+  },
+  "OMIM": {
+   "n": 8464,
+   "top10": 0.8456994328922496
+  },
+  "ORPHA": {
+   "n": 4355,
+   "top10": 0.8679678530424799
+  }
+ },
+ "hardest": [
+  {
+   "disease": "Saccharopinuria",
+   "rank": 3684,
+   "twin": "Saccharopinuria",
+   "twin_similarity": 0.5017949342727661
+  },
+  {
+   "disease": "Cognitive function 1, social",
+   "rank": 2939,
+   "twin": "Motion sickness",
+   "twin_similarity": 1.0
+  },
+  {
+   "disease": "Mitochondrial complex I deficiency, nuclear type 27",
+   "rank": 2589,
+   "twin": "Mitochondrial complex I deficiency, nuclear type 24",
+   "twin_similarity": 0.48955291509628296
+  },
+  {
+   "disease": "Discrimination, two-point, reduction in",
+   "rank": 2257,
+   "twin": "Motion sickness",
+   "twin_similarity": 1.0
+  },
+  {
+   "disease": "Van den bosch syndrome",
+   "rank": 2173,
+   "twin": "Keratoderma, palmoplantar, punctate type 3",
+   "twin_similarity": 0.613938570022583
+  },
+  {
+   "disease": "Bilateral frontal polymicrogyria",
+   "rank": 1991,
+   "twin": "Epileptic encephalopathy, early infantile, 7",
+   "twin_similarity": 0.48059630393981934
+  },
+  {
+   "disease": "FADD-related immunodeficiency",
+   "rank": 1890,
+   "twin": "Pulmonary atresia with ventricular septal defect",
+   "twin_similarity": 0.7084882259368896
+  },
+  {
+   "disease": "Hyperuricemia, infantile, with abnormal behavior and normal hypoxanthineguanine phosphoribosyltransferase",
+   "rank": 1889,
+   "twin": "Intellectual developmental disorder, autosomal recessive 29",
+   "twin_similarity": 0.45833081007003784
+  },
+  {
+   "disease": "Epilepsy, nocturnal frontal lobe, 5",
+   "rank": 1751,
+   "twin": "Epilepsy, nocturnal frontal lobe, 2",
+   "twin_similarity": 0.6186525225639343
+  },
+  {
+   "disease": "Myeloperoxidase deficiency",
+   "rank": 1748,
+   "twin": "Undritz anomaly",
+   "twin_similarity": 0.36448636651039124
+  },
+  {
+   "disease": "Modifier, X-linked, for neurofunctional defects",
+   "rank": 1656,
+   "twin": "Jumping frenchman of maine",
+   "twin_similarity": 1.0
+  },
+  {
+   "disease": "Nf1-Microdeletion syndrome",
+   "rank": 1449,
+   "twin": "Gastrointestinal stromal tumor",
+   "twin_similarity": 0.5740513205528259
+  }
+ ],
+ "by_twin_similarity": {
+  "0-0.3": {
+   "n": 241,
+   "top10": 0.921161825726141
+  },
+  "0.3-0.5": {
+   "n": 5612,
+   "top10": 0.8913043478260869
+  },
+  "0.5-0.8": {
+   "n": 5476,
+   "top10": 0.8239590942293645
+  },
+  "0.8-1.0": {
+   "n": 1537,
+   "top10": 0.8015614834092388
+  }
+ },
+ "median_rank": 2.0
+}

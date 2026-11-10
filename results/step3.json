@@ -1,0 +1,139 @@
+{
+ "n_communities": 32,
+ "modularity": 0.7880655411899653,
+ "nmi_with_organ_systems": 0.40981123177542716,
+ "stability_nmi": [
+  0.8100524222669118,
+  0.8013427474985169,
+  0.8047502501956604
+ ],
+ "largest_sizes": [
+  1488,
+  1229,
+  1015,
+  883,
+  771,
+  750,
+  683,
+  619,
+  561,
+  551
+ ],
+ "top_communities": [
+  {
+   "community": 0,
+   "size": 1488,
+   "main_organ": "Abnormality of head or neck",
+   "purity": 0.49193548387096775
+  },
+  {
+   "community": 1,
+   "size": 1229,
+   "main_organ": "Abnormality of the musculoskeletal system",
+   "purity": 0.7363710333604556
+  },
+  {
+   "community": 2,
+   "size": 1015,
+   "main_organ": "Abnormality of the immune system",
+   "purity": 0.4463054187192118
+  },
+  {
+   "community": 3,
+   "size": 883,
+   "main_organ": "Abnormality of the nervous system",
+   "purity": 0.9501698754246886
+  },
+  {
+   "community": 4,
+   "size": 771,
+   "main_organ": "Abnormality of the nervous system",
+   "purity": 0.9260700389105059
+  },
+  {
+   "community": 5,
+   "size": 750,
+   "main_organ": "Abnormality of the eye",
+   "purity": 0.8706666666666667
+  },
+  {
+   "community": 6,
+   "size": 683,
+   "main_organ": "Abnormality of the integument",
+   "purity": 0.7086383601756955
+  },
+  {
+   "community": 7,
+   "size": 619,
+   "main_organ": "Abnormality of the cardiovascular system",
+   "purity": 0.630048465266559
+  },
+  {
+   "community": 8,
+   "size": 561,
+   "main_organ": "Abnormality of the nervous system",
+   "purity": 0.5436720142602496
+  },
+  {
+   "community": 9,
+   "size": 551,
+   "main_organ": "Abnormality of the musculoskeletal system",
+   "purity": 0.7096188747731398
+  },
+  {
+   "community": 10,
+   "size": 402,
+   "main_organ": "Abnormality of the musculoskeletal system",
+   "purity": 0.3283582089552239
+  },
+  {
+   "community": 11,
+   "size": 388,
+   "main_organ": "Abnormality of the genitourinary system",
+   "purity": 0.4845360824742268
+  }
+ ],
+ "bridge_diseases": [
+  [
+   "Wolfram syndrome",
+   0.86
+  ],
+  [
+   "Malouf syndrome",
+   0.86
+  ],
+  [
+   "Arts syndrome",
+   0.86
+  ],
+  [
+   "Encephalocraniocutaneous lipomatosis",
+   0.86
+  ],
+  [
+   "Alpha-mannosidosis, adult form",
+   0.86
+  ],
+  [
+   "Ruijs-Aalfs syndrome",
+   0.84
+  ],
+  [
+   "Stormorken-Sjaastad-Langslet syndrome",
+   0.84
+  ],
+  [
+   "Neurodegeneration, childhood-onset, hypotonia, respiratory insufficiency and brain imaging abnormalities",
+   0.84
+  ],
+  [
+   "Desmosterolosis",
+   0.84
+  ],
+  [
+   "Congenital infiltrating lipomatosis of the face",
+   0.84
+  ]
+ ],
+ "mean_participation": 0.24616197730452355
+}

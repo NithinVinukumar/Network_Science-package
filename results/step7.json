@@ -1,0 +1,13 @@
+{
+ "diseases": 1500,
+ "recall_network": 0.3770170563415733,
+ "recall_baseline": 0.10659205064162638,
+ "gain": 3.537009130344476,
+ "difference_ci": [
+  0.2531120396463017,
+  0.286898830265492
+ ],
+ "top_k": 20,
+ "hidden_fraction": 0.2,
+ "mean_reciprocal_rank": 0.13659336605694739
+}

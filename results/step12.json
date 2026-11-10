@@ -1,0 +1,160 @@
+{
+ "modules": 20,
+ "modularity_by_c": {
+  "10": 0.4069279206469973,
+  "20": 0.4008574240156911,
+  "30": 0.40529604772595307,
+  "40": 0.4106146331995024
+ },
+ "Q_B": {
+  "BRIM modules": 0.4083113901416616,
+  "Louvain communities": 0.3487425710365307,
+  "organ systems": 0.35624089353949007,
+  "random groups": 0.07460746849812164
+ },
+ "nmi_with_organ": {
+  "BRIM modules": 0.3294808802874527,
+  "Louvain communities": 0.40981123177542716
+ },
+ "gene_share_rate": {
+  "BRIM modules": 0.0017897388307039639,
+  "Louvain communities": 0.004838709677419355,
+  "organ systems": 0.0017054452430259471,
+  "random groups": 0.0005570300468560569
+ },
+ "gene_pairs": {
+  "BRIM modules": 30172,
+  "Louvain communities": 29760,
+  "organ systems": 32836,
+  "random groups": 30519
+ },
+ "triage_accuracy": {
+  "BRIM modules": 0.7493333333333333,
+  "organ systems": 0.6626666666666666
+ },
+ "triage_chance": 0.05,
+ "triage_largest_module": 0.2028602518265195,
+ "triage_organ_largest": 0.2823721436343852,
+ "largest_modules": [
+  {
+   "module": 0,
+   "diseases": 2610,
+   "symptoms": 2302,
+   "main_organ": "musculoskeletal system",
+   "organ_share": 0.4019157088122605,
+   "signature": [
+    "Hypertelorism",
+    "Micrognathia",
+    "Cleft palate",
+    "Low-set ears",
+    "Cryptorchidism",
+    "Short stature"
+   ]
+  },
+  {
+   "module": 1,
+   "diseases": 2495,
+   "symptoms": 2789,
+   "main_organ": "immune system",
+   "organ_share": 0.181563126252505,
+   "signature": [
+    "Hepatomegaly",
+    "Splenomegaly",
+    "Fever",
+    "Abdominal pain",
+    "Thrombocytopenia",
+    "Anemia"
+   ]
+  },
+  {
+   "module": 2,
+   "diseases": 2228,
+   "symptoms": 2704,
+   "main_organ": "nervous system",
+   "organ_share": 0.6732495511669659,
+   "signature": [
+    "Dysarthria",
+    "Babinski sign",
+    "Ataxia",
+    "Dysphagia",
+    "Pes cavus",
+    "Hyperreflexia"
+   ]
+  },
+  {
+   "module": 3,
+   "diseases": 1974,
+   "symptoms": 1102,
+   "main_organ": "nervous system",
+   "organ_share": 0.7163120567375887,
+   "signature": [
+    "Global developmental delay",
+    "Seizure",
+    "Microcephaly",
+    "Delayed speech and language development",
+    "Absent speech",
+    "Intellectual disability"
+   ]
+  },
+  {
+   "module": 4,
+   "diseases": 785,
+   "symptoms": 626,
+   "main_organ": "eye",
+   "organ_share": 0.5694267515923567,
+   "signature": [
+    "Nyctalopia",
+    "Reduced visual acuity",
+    "Rod-cone dystrophy",
+    "Attenuation of retinal blood vessels",
+    "Spicular pigmentation of the retina",
+    "Optic disc pallor"
+   ]
+  },
+  {
+   "module": 5,
+   "diseases": 653,
+   "symptoms": 542,
+   "main_organ": "integument",
+   "organ_share": 0.6171516079632465,
+   "signature": [
+    "Nail dystrophy",
+    "Palmoplantar keratoderma",
+    "Abnormal blistering of the skin",
+    "Photophobia",
+    "Hyperkeratosis",
+    "Alopecia"
+   ]
+  },
+  {
+   "module": 6,
+   "diseases": 506,
+   "symptoms": 483,
+   "main_organ": "genitourinary system",
+   "organ_share": 0.2015810276679842,
+   "signature": [
+    "Primary amenorrhea",
+    "Decreased testicular size",
+    "Gynecomastia",
+    "Hypogonadotropic hypogonadism",
+    "Obesity",
+    "Delayed puberty"
+   ]
+  },
+  {
+   "module": 7,
+   "diseases": 270,
+   "symptoms": 399,
+   "main_organ": "musculoskeletal system",
+   "organ_share": 0.37407407407407406,
+   "signature": [
+    "Mitral valve prolapse",
+    "Hyperextensible skin",
+    "Elevated circulating follicle stimulating hormone level",
+    "Osteopenia",
+    "Arachnodactyly",
+    "Elevated circulating luteinizing hormone level"
+   ]
+  }
+ ]
+}

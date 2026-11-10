@@ -1,0 +1,137 @@
+{
+ "diseases": 12866,
+ "exact_twin_diseases": 541,
+ "exact_twin_share": 0.04204881081921343,
+ "distinct_symptom_sets": 12491,
+ "min_questions_binary_search": 13.651275973346639,
+ "strategies": {
+  "greedy": {
+   "targets": 1000,
+   "mean_questions": 13.91,
+   "median_questions": 14.0,
+   "identified_share": 0.959,
+   "stuck_share": 0.041,
+   "cap": 60,
+   "median_left_after_10": 13.0,
+   "median_left_after_25": 1.0,
+   "identified_within_10": 0.0,
+   "identified_within_15": 0.906,
+   "identified_within_20": 0.958
+  },
+  "hubs": {
+   "targets": 150,
+   "mean_questions": 19.613333333333333,
+   "median_questions": 20.0,
+   "identified_share": 0.7,
+   "stuck_share": 0.02,
+   "cap": 25,
+   "median_left_after_10": 248.5,
+   "median_left_after_25": 1.0,
+   "identified_within_10": 0.006666666666666667,
+   "identified_within_15": 0.18,
+   "identified_within_20": 0.5333333333333333
+  },
+  "rare": {
+   "targets": 150,
+   "mean_questions": 25.0,
+   "median_questions": 25.0,
+   "identified_share": 0.0,
+   "stuck_share": 0.0,
+   "cap": 25,
+   "median_left_after_10": 12856.0,
+   "median_left_after_25": 12841.0,
+   "identified_within_10": 0.0,
+   "identified_within_15": 0.0,
+   "identified_within_20": 0.0
+  },
+  "random": {
+   "targets": 150,
+   "mean_questions": 24.753333333333334,
+   "median_questions": 25.0,
+   "identified_share": 0.03333333333333333,
+   "stuck_share": 0.0,
+   "cap": 25,
+   "median_left_after_10": 12434.5,
+   "median_left_after_25": 11490.0,
+   "identified_within_10": 0.0,
+   "identified_within_15": 0.013333333333333334,
+   "identified_within_20": 0.02666666666666667
+  }
+ },
+ "greedy_questions_histogram": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  17,
+  271,
+  578,
+  40,
+  31,
+  12,
+  5,
+  4,
+  0,
+  1
+ ],
+ "greedy_first_five_questions_share_of_diseases": [
+  0.5114254624592034,
+  0.4956256800870506,
+  0.35940167884346214,
+  0.3918586973418328,
+  0.3141103684128707
+ ],
+ "example": {
+  "disease": "Joubert syndrome 6",
+  "n_questions": 13,
+  "candidates_left": [
+   6286,
+   3136,
+   1498,
+   721,
+   355,
+   189,
+   96,
+   48,
+   23,
+   11,
+   6,
+   3,
+   1
+  ],
+  "questions": [
+   [
+    "Abnormality of the head",
+    false
+   ],
+   [
+    "Abnormality of the nervous system",
+    true
+   ],
+   [
+    "Abnormality of the musculature",
+    true
+   ],
+   [
+    "Morphological central nervous system abnormality",
+    true
+   ],
+   [
+    "Abnormal communication",
+    false
+   ],
+   [
+    "Abnormal forebrain morphology",
+    false
+   ]
+  ]
+ }
+}
